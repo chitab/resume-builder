@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkgray;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-color{
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+}
+.nav-css{
+  background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));
+  color: white
+}
+.text-color{
+  color: #e9b070!important;
+  font-size: 20px;
+}
+.border-style{
+  border: 1px solid grey;
+}
+
+.scrollable-container {
+  height: calc(100vh - 80px); /* Adjust the height as needed */
+  overflow-y: auto;
+  scroll-padding-top: 80px; /* Adjust the value to match the height of your header */
+}
+
